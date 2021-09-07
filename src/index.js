@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Userinfor from './components/Userinfor';
+import Users from './components/Users';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Users/>
   </React.StrictMode>,
   document.getElementById('root')
 );
